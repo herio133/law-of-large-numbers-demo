@@ -2,8 +2,6 @@
 
 ## Description
 
-This Python script provides an elegant animated demonstration of the Law of Large Numbers using dice rolling. The visualization shows how the relative frequency of rolling a 6 gradually converges to the theoretical probability of 1/6 as the number of trials increases.
-
 The Law of Large Numbers is a fundamental theorem in probability theory stating that as a sample size grows, its mean gets closer to the average of the whole population. In this case, we observe how random fluctuations in dice rolls smooth out over time, approaching the expected probability.
 
 **Key Features:**
@@ -16,4 +14,3 @@ The Law of Large Numbers is a fundamental theorem in probability theory stating 
 
 **Educational Value:**
 Perfect for statistics students, educators, or anyone wanting to visualize how probability theory works in practice. Shows the difference between short-term randomness and long-term predictability.
-
