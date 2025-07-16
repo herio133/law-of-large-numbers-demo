@@ -5,16 +5,13 @@ import matplotlib.animation as animation
 # 🎩 Theme setup
 plt.style.use('seaborn-v0_8-darkgrid')
 np.random.seed(42)  # luck favors the well-prepared
-
 # 🎲 Dice rolling oracle
 def roll_dice(n):
     return np.random.randint(1, 7, size=n)
-
 # 💫 Compute relative frequency of rolling a 6
 def compute_frequencies(outcomes):
     is_six = (outcomes == 6)
     return np.cumsum(is_six) / np.arange(1, len(outcomes) + 1)
-
 # ✨ Animation spell
 def animate_frequency(n_trials=1000):
     outcomes = roll_dice(n_trials)
