@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 
-# 🎩 Theme setup
+
 plt.style.use('seaborn-v0_8-darkgrid')
 np.random.seed(42)  # luck favors the well-prepared
 # 🎲 Dice rolling oracle
@@ -39,6 +39,4 @@ def animate_frequency(n_trials=1000):
     )
 
     plt.show()
-
-# 🌟 Cast the spell
 animate_frequency(n_trials=1000)
